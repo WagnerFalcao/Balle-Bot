@@ -6,10 +6,35 @@
 }
 
 .menu {
+
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFF2E7;
 }
 
+.itens_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 262px;
+
+}
+
+.logo_inicial {
+    margin-left: 368px;
+    margin-right: 522px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+
+}
 
 
 .button {
@@ -38,4 +63,27 @@
     height: 429.31px;
     left: 1171px;
     top: 96px;
+}
+
+.descricao {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 276.04px;
+    height: 0px;
+    left: 822px;
+    top: 576px;
+
+    border: 0.4px solid #FFF2E7;
+}
+
+.linha_3 {
+    position: absolute;
+    width: 1920.01px;
+    height: 0px;
+    left: -8px;
+    top: 925px;
+
+    border: 0.4px solid #FFF2E7;
 }
